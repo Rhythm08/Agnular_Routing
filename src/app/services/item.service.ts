@@ -18,7 +18,8 @@ export class ItemService{
       "emailAddress": "krish.lee@learningcontainer.com",
       "image": "https://th.bing.com/th/id/OIP.kGmuLIMjc1TVVqyC43yAZgHaEK?pid=ImgDet&rs=1",
       "price":"100",
-      "description":"A non-slip yoga mat with extra thickness for added comfort during workouts."
+      "description":"A non-slip yoga mat with extra thickness for added comfort during workouts.",
+      "type":"Free"
     },
     {
       "id": 2,
@@ -29,7 +30,9 @@ export class ItemService{
       "emailAddress": "racks.jacson@learningcontainer.com",
       "price":100,
       "image":"https://cdn.pixabay.com/photo/2023/02/08/07/32/vietnamese-woman-7775904_960_720.jpg",
-      "description":"A non-slip yoga mat with extra thickness for added comfort during workouts."
+      "description":"A comfortable cotton T-shirt, perfect for everyday wear.",
+      "type":"Free"
+
     },
     {
       "id": 3,
@@ -40,7 +43,9 @@ export class ItemService{
       "emailAddress": "denial.roast@learningcontainer.com",
       "price":100,
       "image":"https://cdn.pixabay.com/photo/2023/01/23/09/26/cat-7738210_960_720.jpg",
-      "description":"A stylish and durable leather jacket with a quilted lining and multiple pockets."
+      "description":"A stylish and durable leather jacket with a quilted lining and multiple pockets.",
+      "type":"Free"
+
     },
     {
       "id": 4,
@@ -51,7 +56,9 @@ export class ItemService{
       "emailAddress": "devid.neo@learningcontainer.com",
       "price":100,
       "image":"https://cdn.pixabay.com/photo/2023/02/07/13/39/monkey-7774171_960_720.jpg",
-      "description":"Noise-cancelling headphones with Bluetooth connectivity and up to 20 hours of battery life."
+      "description":"Noise-cancelling headphones with Bluetooth connectivity and up to 20 hours of battery life.",
+      "type":"Free"
+
     },
     {
       "id": 5,
@@ -62,7 +69,9 @@ export class ItemService{
       "emailAddress": "jone.mac@learningcontainer.com",
       "price":100,
       "image":"https://cdn.pixabay.com/photo/2022/12/21/13/27/forest-7670068_960_720.jpg",
-      "description":"A high-end smartphone with a large screen, powerful processor, and advanced camera features."
+      "description":"A high-end smartphone with a large screen, powerful processor, and advanced camera features.",
+      "type":"Free"
+
     }
   ]
 }
