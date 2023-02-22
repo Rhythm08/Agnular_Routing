@@ -16,7 +16,7 @@ import { ItemService } from './services/item.service';
 const appRoute :Routes=[
   {path:'', component:HomeComponent},
   {path:'home', component:HomeComponent},
-  {path:'item/:id', component:ItemComponent},
+  {path:'home/item/:id', component:ItemComponent},
   {path:'about', component:AboutComponent},
   {path:'contact', component:ContactComponent},
   {path:'courses', component:CoursesComponent},

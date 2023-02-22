@@ -1,18 +1,19 @@
-<p>item works!</p>
 <div class="item-container">
     <div>
-        <h1>{{item.name}}</h1>
-    </div>
-    <div class="course-details" >
-        <div style="margin:0px 10px"><b>First name</b>{{item.firstName}}</div>
-        <div style="margin:0px 10px"><b>Last name</b>{{item.lastName}}</div>
-        <div style="margin:0px 10px"><b>Phone No.</b>{{item.phoneNumber}}</div>
-        <div style="margin:0px 10px"><b>email address.</b>{{item.emailAddress}}</div>
-    </div>
-    <div style="margin: 0px 10px">
-        <h2></h2>
+        <img src="{{item.image}}" width="560" height="280">
     </div>
     <div>
-        <p>Description is <b>not given</b></p>
+        <h1 style="text-align: center;">{{item.name}}</h1>
+    </div>
+    <div class="item-details">
+        <div style="margin: 0px 10px;"><b>Name: </b>{{item.firstName}}</div>
+        <div style="margin: 0px 10px;"><b>Phone: </b>{{item.phoneNumber}}</div>
+        <div style="margin: 0px 10px;"><b>Email: </b>{{item.emailAddress}}</div>
+    </div>
+    <div style="margin: 0px 10px;">
+        <h2>Price: {{item.price}}$</h2>
+    </div>
+    <div style="margin: 20px 10px;">
+        <p>{{item.description}}</p>
     </div>
 </div>
